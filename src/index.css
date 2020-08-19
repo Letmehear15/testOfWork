@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('./images/back.jpg') center center / cover no-repeat;
+    /* height: 100vh; */
+    min-height: -webkit-fill-available;
+}
+
+@font-face {
+    font-family: 'Exo';
+    src:  url('./fonts/Exo2.0-Thin.otf') format('truetype');
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
